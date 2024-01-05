@@ -3,4 +3,4 @@ Assingnment
 
 javascript,css html
 
-Live:
+Live: https://mohammed-ishaq-chennari.github.io/Insta-linke-page/
