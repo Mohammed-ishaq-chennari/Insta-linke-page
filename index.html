@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <title>Insta Like </title>
+    <link rel="stylesheet" href="like.css">
+   
+</head>
+<body>
+    <div id="container">
+        <img src="23.jpeg" alt="" >
+        <h3>Liked by <span>Modi ji</span> and 69 others</h3>
+        <i  class="ri-heart-3-fill"></i>
+    </div>
+    <script>
+        var main = document.querySelector("#container");
+        var likes = document.querySelector("i");
+        main.addEventListener("dblclick",function(){
+          likes.style.transform ="translate(-50%, -50%) scale(2)"
+        
+          setTimeout(function(){
+            likes.style.transform="translate(-50%, -50%) scale(0)"
+          },2000)
+        })
+        
+    
+        
+
+    </script>
+</body>
+</html>
